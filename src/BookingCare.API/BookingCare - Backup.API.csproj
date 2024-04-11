@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>df627012-3a8d-4e24-a75c-2308ff7d2406</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookingCare.Application\BookingCare.Application.csproj" />
+    <ProjectReference Include="..\BookingCare.Domain\BookingCare.Domain.csproj" />
+    <ProjectReference Include="..\BookingCare.Infrastructure\BookingCare.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
